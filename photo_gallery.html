@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="photo_gallery.css">
+    <!-- Title Bar -->
+    <link rel="icon" href="Images/logo.png">
+    <title>
+        Wanderlust Shots
+    </title>
+</head>
+
+<!-- Web page Content -->
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar">
+        <img src="Images/logo.png" class="logo" alt="logo">
+        <ul class="links">
+            <li><a href="#home" class="click">Home</a></li>
+            <li><a href="#gallery" class="click">Gallery</a></li>
+            <li><a href="#about" class="click">About</a></li>
+        </ul>
+        <img src="Images/Manu.png" alt="manu" class="menubutton">
+    </nav>
+
+    <!-- Home -->
+    <header>
+        <section id="home">
+            <div class="header-content">
+                <h1>Wanderlust Shots</h1>
+                <div class="line"></div>
+                <h2>A Traveler's Photo Gallery</h2>
+                <img src="Images/logo.png" class="HomePic" alt="logo">
+                <h4>"Welcome to a visual diary 'Wanderlust Shots' of my journey through the heart of Sri Lanka. Join me
+                    as I share the vibrant colors, rich traditions, and natural wonders of this enchanting island
+                    nation. This collection captures the essence of Sri Lanka's diverse landscapes and warm hospitality.
+                    Step into my world and experience the beauty and culture of Sri Lanka through my lens."</h4>
+                <a href="#gallery" class="click">Let's Go</a>
+            </div>
+        </section>
+    </header>
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div class="Topic">
+            <h2>Gallery</h2>
+            <div class="line"></div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="Images/SkyColors.jpg" class="Gimg" alt="SkyColors">
+                    <div class="text">
+                        <h5>Sky Colors</h5>
+                        <h6>Belihuloya</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/View1.jpg" class="Gimg" alt="View1">
+                    <div class="text">
+                        <h5>Nagrak</h5>
+                        <h6>Nanperial</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/AirPlane.jpg" class="Gimg" alt="AirPlane">
+                    <div class="text">
+                        <h5>Air Plane</h5>
+                        <h6>Hawagala</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/Babarakanda.jpg" class="Gimg" alt="Babarakanda">
+                    <div class="text">
+                        <h5>Babarakanda</h5>
+                        <h6>Kalupahana</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/Mist1.jpg" class="Gimg" alt="Mist1">
+                    <div class="text">
+                        <h5>The Mist</h5>
+                        <h6>Haputhale Station</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/SunRise.jpg" class="Gimg" alt="SunRise">
+                    <div class="text">
+                        <h5>Sun Rise</h5>
+                        <h6>Devil's Staircase</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/Phineas.jpg" class="Gimg" alt="Phineas">
+                    <div class="text">
+                        <h5>Phineas</h5>
+                        <h6>Upper Babarakanda</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/Boat.jpg" class="Gimg" alt="Boat">
+                    <div class="text">
+                        <h5>The Boat</h5>
+                        <h6>Jaffna</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/SpanishNeedle.jpg" class="Gimg" alt="SpanishNeedle">
+                    <div class="text">
+                        <h5>Spanish Needle</h5>
+                        <h6>Devil's Staircase</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/LittleWorld.jpg" class="Gimg" alt="LittleWorld">
+                    <div class="text">
+                        <h5>Little World</h5>
+                        <h6>Hatton</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/TreeArts.jpg" class="Gimg" alt="TreeArts">
+                    <div class="text">
+                        <h5>Tree Arts</h5>
+                        <h6>Ohiya</h6>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="Images/Road.jpg" class="Gimg" alt="Road">
+                    <div class="text">
+                        <h5>The Road</h5>
+                        <h6>Horton Plains</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <footer>
+        <section id="about">
+            <div class="Topic">
+                <h2>About</h2>
+                <div class="line"></div>
+                <h4>Integrative Programming & Technology (IPT)<br>IT12043<br>ITBNM-2211-0124<br>Assignment 02 | Photo
+                    Gallery</h4>
+                <div class="line"></div>
+                <div>
+                    <img src="Images/facebook.png" class="icon" alt="facebook">
+                    <img src="Images/youtube.png" class="icon" alt="youtube">
+                    <img src="Images/whatsapp.png" class="icon" alt="whatsapp">
+                    <img src="Images/gmail.png" class="icon" alt="gmail">
+                </div>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- For Mobile NavBar -->
+    <script>
+        const menubutton = document.querySelector('.menubutton')
+        const links = document.querySelector('.links')
+
+        menubutton.addEventListener('click', () => {
+            links.classList.toggle('mobilemanu')
+        })
+    </script>
+    
+</body>
+</html>
